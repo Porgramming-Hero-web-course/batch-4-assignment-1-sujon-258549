@@ -6,14 +6,14 @@
         email: string
     }
 
-    const updateProfile = (input: Profile,  updates: Partial<Profile>) => {
-        const upfateData = {...input,...updates}
+    const updateProfile = (input: Profile, updates: Partial<Profile>) => {
+        const upfateData = { ...input, ...updates }
         return `Profile Name ${upfateData.name} Age ${upfateData.age} Email: ${upfateData.email}`
     }
 
     const myProfile = { name: "Alice", age: 25, email: "alice@example.com" };
     // console.log(updateProfile(myProfile, {age:26})); // updata name email and age 
-
+    //////
     // 
     // 
     // 

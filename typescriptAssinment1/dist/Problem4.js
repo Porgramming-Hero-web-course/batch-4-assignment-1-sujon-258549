@@ -8,6 +8,7 @@
             return input.height * input.width;
         }
     };
-    const circle = { shape: 'circle', radius: 10 };
-    console.log(calculateShapeArea(circle));
+    const circle = { shape: 'circle', radius: 5 };
+    const ractangle = { shape: 'rectangle', height: 4, width: 6 };
+    // console.log(calculateShapeArea(circle))
 }
