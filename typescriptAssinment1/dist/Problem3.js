@@ -5,12 +5,11 @@
     const countWordOccurrences = (sentence, word) => {
         const sentenceLowercase = sentence.toLowerCase();
         const wordLowercase = word.toLowerCase();
-        const sliceWord = sentenceLowercase.split(/\W+/);
+        const sliceWord = sentenceLowercase.split(/\s+/);
         return sliceWord.filter(singleWord => singleWord === wordLowercase).length;
     };
-    //const count = 
-    countWordOccurrences("TypeScript is great. I love TypeScript!", "typescript");
-    // console.log(count);
+    const count = countWordOccurrences("I love typescript", "typescript");
+    console.log(count);
     // 
     // 
 }
