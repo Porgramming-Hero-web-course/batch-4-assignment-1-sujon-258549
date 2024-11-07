@@ -9,7 +9,7 @@
         return sliceWord.filter(singleWord => singleWord === wordLowercase).length;
     };
     const count = countWordOccurrences("I love typescript", "typescript");
-    console.log(count);
+    // console.log(count);
     // 
     // 
 }

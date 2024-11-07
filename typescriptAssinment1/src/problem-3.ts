@@ -10,7 +10,7 @@
     }
   
     const count = countWordOccurrences("I love typescript", "typescript");
-    console.log(count);
+    // console.log(count);
 
 
 
