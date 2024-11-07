@@ -6,7 +6,7 @@
     };
     const myProfile = { name: "Alice", age: 25, email: "alice@example.com" };
     // console.log(updateProfile(myProfile, {age:26})); // updata name email and age 
-    //////
+    //
     // 
     // 
     // 
